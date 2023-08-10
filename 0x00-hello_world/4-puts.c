@@ -5,9 +5,9 @@
  * return: 0
  */
 
-int main (void)
+int main(void)
 {
-	puts =""\Programming is like building a multilingual puzzle"
-	putchar(puts)
+	fputs ="\"Programming is like building a multilingual puzzle";
+	putchar(fputs);
 	return (0);
 }
