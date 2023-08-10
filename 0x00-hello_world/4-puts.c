@@ -1,10 +1,10 @@
 #include <stdio.h>
 /*
- * main - Entry point
- * Description: It prints a message to the console using the puts function.
- * return: 0
+ * This is the main function of the program.
+ * It prints a message to the console using the puts function.
+ * Returns: 0 on successful execution.
  */
-int main(void)/*main function*/
+int main(void)
 {
 	char str[] = "\"Programming is like building a multilingual puzzle";
 
