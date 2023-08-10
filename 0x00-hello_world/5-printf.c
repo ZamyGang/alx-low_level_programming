@@ -1,10 +1,10 @@
 #include <stdio.h>
-/*
+/**
  * main - Entry point
  *
- * This function prints a message using the printf function.
+ * Description: This function prints a message using the printf function.
  *
- * Return: 0 on successful execution.
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
