@@ -2,6 +2,7 @@
 /*
  * main - Entry point
  * return: 0
+ * print the variable on the console
  */
 int main(void)
 {
