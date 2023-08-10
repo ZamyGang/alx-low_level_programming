@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * Main - Entry point
+ * main - Entry point
  *
- * Description: This function prints the sizes of different
- * data types using the printf function.
+ * Description: This function prints the sizes of different data
+ * types using the printf function.
  *
  * Return: Always 0 (Success)
  */
