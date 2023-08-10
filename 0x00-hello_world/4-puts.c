@@ -1,6 +1,7 @@
 #include <stdio.h>
 /*
  * main - Entry point
+ * Description: 'print a statement'
  * return: 0
  */
 
