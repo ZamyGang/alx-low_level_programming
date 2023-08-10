@@ -1,14 +1,15 @@
 #include <stdio.h>
 /*
- * Entry point 
- *
+ * Entry point
+ * 
  * return: 0
  */
 
-int main()
+int main(voidi)
 {
-	char str[]="\"Programming is like building a multilingual puzzle";
+	char str[] = "\"Programming is like building a multilingual puzzle";
+	puts("\n");
 	puts(str);
 
-	return 0;
+	return (0);
 }
