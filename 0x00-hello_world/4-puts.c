@@ -1,7 +1,7 @@
 #include <stdio.h>
 /*
  * main - Entry point
- * Description: 'print a statement'
+ * It prints a message to the console using the puts function.
  * return: 0
  */
 int main(void)
