@@ -4,7 +4,7 @@
  * Description: It prints a message to the console using the puts function.
  * return: 0
  */
-int main(void)
+int main(void)/*main function*/
 {
 	char str[] = "\"Programming is like building a multilingual puzzle";
 
