@@ -5,9 +5,10 @@
  * return: 0
  */
 
-int main(void)
+int main()
 {
-	fputs ="\"Programming is like building a multilingual puzzle";
-	putchar(fputs);
-	return (0);
+	char str[]=""\Programming is like building a multilingual puzzle";
+	puts(str);
+
+	return 0;
 }
