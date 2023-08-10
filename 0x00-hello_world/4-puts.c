@@ -1,7 +1,6 @@
 #include <stdio.h>
 /*
  * Entry point
- * 
  * return: 0
  */
 
