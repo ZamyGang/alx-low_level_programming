@@ -1,8 +1,10 @@
 #include <stdio.h>
-/*
+/**
  * main - Entry point
- * return: 0
- * print the variable on the console
+ *
+ * This function prints a message using the puts function.
+ *
+ * Return: 0 on successful execution.
  */
 int main(void)
 {
