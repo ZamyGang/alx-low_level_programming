@@ -4,7 +4,9 @@
  */
 int main(void)
 {
-	for (int a = 30 ; a >= 39 ; a++)
+	int a;
+
+	for (a = 30 ; a >= 39 ; a++)
 	{
 		putchar(a);
 	}
