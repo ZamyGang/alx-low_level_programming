@@ -6,7 +6,7 @@ int main(void)
 {
 	int a;
 
-	for (a = 30 ; a >= 39 ; a++)
+	for (a = 30 ; a <= 39 ; a++)
 	{
 		putchar(a);
 	}
