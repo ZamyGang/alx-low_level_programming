@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /*
  * Main - Entry point
  * Description: A function that print a message depending on the condition
