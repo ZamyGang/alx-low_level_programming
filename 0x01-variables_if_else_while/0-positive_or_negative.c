@@ -3,8 +3,8 @@
 #include <time.h>
 /*
  * Main - Entry point
- * Description: A function that print a message depending on the condition
- *
+ * Description: This function generates a random number, checks its sign;
+ * and prints a corrensponding message.
  * Return: (0) Success
  *
  */
@@ -20,7 +20,7 @@ int main(void)
 	}
 	else if (n < 0)
 	{
-		printf("%d is negative\n", n);
+		printf("%d is negative\in", n);
 	}
 	else
 	{
