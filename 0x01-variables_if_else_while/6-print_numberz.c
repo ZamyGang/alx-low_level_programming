@@ -8,6 +8,7 @@ int main(void)
 
 	for (a = 0 ; a <= 9 ; a++)
 	{
+		a = getchar();
 		putchar(a);
 	}
 	putchar('\n');
