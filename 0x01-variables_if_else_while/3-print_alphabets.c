@@ -6,11 +6,16 @@ int main(void)
 
 	
 	
-	char alpha = 'a';
+	char lower = 'a';
+	char upper = 'A';
 
-	for (alpha = 'a'; alpha <= 'Z' ; alpha++)
+	for (lower = 'a'; lower <= 'z' ; alpha++)
 	{
-		putchar(alpha);
+		putchar(lower);
+	}
+	for (upper = 'A'; lower <= 'Z' ; lower++)
+	{
+		putchar(upper);
 	}
 	putchar('\n');
 	return (0);
