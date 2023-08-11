@@ -3,11 +3,15 @@
  * Main - Entry point
  * Description: A function that print a message depending on the condition
  *
- * Return (0) Success
+ * Return: (0) Success
  *
  */
 int main(void)
 {
+	int n;
+
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
 		printf("%d is positive", n);
