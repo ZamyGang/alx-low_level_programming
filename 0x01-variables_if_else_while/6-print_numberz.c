@@ -5,9 +5,9 @@
 int main(void)
 {
 	int a;
-	a = getchar();
 
-	for (a = 30 ; a <= 39 ; a++)
+
+	for (a = 0 ; a <= 9 ; a++)
 	{
 		putchar(a);
 	}
