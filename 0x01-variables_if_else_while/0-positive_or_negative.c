@@ -3,8 +3,8 @@
 #include <time.h>
 /*
  * Main - Entry point
- * Description: Assigns a random number to the variable n
- * and prints whether it is positive,negative, or zero
+ * Description: A function that prints out negative,positive or zero
+ * depending on the output of the variable
  * Return: (0) Success
  *
  */
