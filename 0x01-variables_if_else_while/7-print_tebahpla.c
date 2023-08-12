@@ -3,7 +3,7 @@
  */
 int main(void)
 {
-	char alpha;
+	char a;
 	
 	for (a = 'z'; a <= 'a'; a--)
 	{
