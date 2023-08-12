@@ -5,10 +5,11 @@
  * Main function - Entry point of the program.
  *
  * This program generates a random integer 'n' and determines its last digit.
- * It categorizes the digit as greater than 5, equal to 0, or less than 6 but not 0.
+ * It categorizes the digit as greater than 5, equal to 0, or less than 6 but 
+ * not 0.
  * The random number generator is seeded with the current time for randomness.
- * This program demonstrates the usage of random numbers, arithmetic operations,
- * and conditionals in C.
+ * This program demonstrates the usage of random numbers, arithmetic operations
+ * , and conditionals in C.
  *
  * Return: Always 0 (Success)
  */
