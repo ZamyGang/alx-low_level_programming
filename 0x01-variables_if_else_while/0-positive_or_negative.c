@@ -3,8 +3,8 @@
 #include <time.h>
 /*
  * Main - Entry point
- * Description: This function generates a random number, checks its sign;
- * and prints a corrensponding message.
+ * Description: Assigns a random number to the variable n
+ * and prints whether it is positive,negative, or zero
  * Return: (0) Success
  *
  */
