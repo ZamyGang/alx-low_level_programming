@@ -4,13 +4,12 @@
  */
 int main(void)
 {
-	int a;
+	int base;
 
-	for (a = 0 ; a <= 9 ; a++)
+	for (base = 0; base < 10; base++)
 	{
-		a = getchar();
-		putchar(a);
-	}
-	putchar('\n');
+		putchar((base % 10) + '0');
+		putchar('\n');
+	}	
 	return (0);
 }
