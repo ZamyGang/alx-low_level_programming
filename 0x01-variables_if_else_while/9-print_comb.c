@@ -3,12 +3,16 @@
  */
 int main(void)
 {
-	int a;
+	int a , b;
 
 	for (a = 48; a <= 57 ; a++)
 	{
 		putchar(a);
-		putchar(',');
+
+		for (b = 0 ; b <= 9 ; b++)
+		{
+			putchar(',');
+		}
 		putchar(' ');
 	}
 	putchar('\n');
