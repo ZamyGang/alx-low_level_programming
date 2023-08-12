@@ -1,10 +1,11 @@
 #include <stdio.h>
-/*
- * main - entry
- * Description: this function prints alphabets using the putchar function
- * return (0) success
+/**
+ * main - Entry point
+ *
+ * Description: Prints the lowercase alphabet using the putchar function.
+ *
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	char alpha;

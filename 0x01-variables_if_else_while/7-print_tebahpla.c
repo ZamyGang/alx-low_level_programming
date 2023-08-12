@@ -1,8 +1,11 @@
 #include <stdio.h>
 /**
- * Main - entry point
- * Description: this function prints the alphabet in reverse
- * Return: 0 (Success)
+ * main - Entry point
+ *
+ * Description: Prints the lowercase alphabet in reverse
+ * using the putchar function.
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {

@@ -1,8 +1,11 @@
 #include <stdio.h>
-/*
- * main - entry point
- * Description: this main function prints alphabets except for q and e.
- * Return: 0 (Success)
+/**
+ * main - Entry point
+ *
+ * Description: Prints the lowercase alphabet except letters q and e
+ *              using the putchar function.
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {

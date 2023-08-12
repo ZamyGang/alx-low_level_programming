@@ -1,10 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*
- * Main - entry point
+/**
+ * main - Entry point
+ *
  * Description: Assigns a random number to the variable n
- * and prints the last digit along with its properties.
+ *              and prints the last digit along with its properties.
+ *
  * Return: Always 0 (Success)
  */
 int main(void)

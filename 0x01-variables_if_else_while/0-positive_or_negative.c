@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*
- * Main function - Entry point of the program.
+/**
+ * main - Entry point
+ *
  * Description: Assigns a random number to the variable n
- * and prints whether it is positive,negative or zero.
+ *              and prints whether it is positive, negative, or zero.
  *
  * Return: Always 0 (Success)
  */

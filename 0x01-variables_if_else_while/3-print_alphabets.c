@@ -1,5 +1,11 @@
 #include <stdio.h>
-/*
+/**
+ * main - Entry point
+ *
+ * Description: Prints the lowercase and uppercase alphabets
+ * using the putchar function.
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
