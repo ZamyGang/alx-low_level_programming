@@ -1,5 +1,14 @@
 #include "main.h"
 #include <stdio.h>
+/*
+ * main - entry point
+ *
+ * Description: Write a program that prints _putchar using the _puthchar
+ * function.
+ *
+ * Return: (0) Success
+ *
+ */
 int main(void)
 {
 	_putchar('_');
@@ -11,6 +20,5 @@ int main(void)
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
-	return (0);
-	
+	return (0);	
 }
