@@ -8,5 +8,6 @@
  */
 int _abs(int)
 {
-	printf("%d",abs(int));
+	int a = abs(int)
+	printf("%d",a);
 }
