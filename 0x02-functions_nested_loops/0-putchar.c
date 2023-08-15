@@ -3,7 +3,7 @@
 int main(void)
 {
 	char c[] = "_putchar";
-	_putchar(c);
+	_putchar('_putchar');
 
 	return (0);
 }
