@@ -9,6 +9,5 @@
 int _abs(int)
 {
 	int a;
-	abs(a);
-	printf("%d",a);
+	printf("%d",abs(a));
 }
