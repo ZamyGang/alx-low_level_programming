@@ -1,13 +1,8 @@
 #include "main.h"
-
+#include <stdio.h>
 int main(void)
 {
-	_putchar();
+	_putchar('_');
 
 	return (0);
-}
-
-int _putchar()
-{
-	printf("_putchar");
 }
