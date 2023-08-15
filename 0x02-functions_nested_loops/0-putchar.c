@@ -3,8 +3,7 @@
 /*
  * main - entry point
  *
- * Description: Write a program that prints _putchar using the _puthchar
- * function.
+ * A function that prints _putchar using the _puthchar function.
  *
  * Return: (0) Success
  *
