@@ -2,7 +2,7 @@
 
 int main(void)
 {
-	_putchar("_putchar\n");
+	_putchar();
 
 	return (0);
 }
