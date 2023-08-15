@@ -72,5 +72,31 @@ int main(void)
 	float e;
 	
 	printf("Size of a char: %zu byte(s)\n", sizeof(a));
-	printf()
+	printf("Size of an int: %zu byte(s)\n", sizeof(b));
+	printf("Size of a long int: %zu byte(s)\n", sizeof(c));
+	printf("Size of a long long int: %zu byte(s)\n", sizeof(d));
+	printf("Size of a float: %zu byte(s)\n", sizeof(e));
+
+	return (0);
+}
+Write a script that generates the assembly code (intel syntax) of a C 
+code and save it in an output file.
+7. Intel
+#!/bin/bash
+gcc -S -masm=intel $CFILE
+
+8. UNIX is basically a simple operating system, but you have to be a genius
+to understand the simplicity 
+#include <unistd.h>
+/**
+ * main - Prints "and that piece of art is useful - Dora Korpar, 2015-10-19",
+ * followed by a new line, to standard error.
+ * Return: Always 1.
+ */
+int main(void)
+{
+	write(2 , "and that piece of art useful\" - Dora Korpar, 2015-10-19\n", 
+		59;
+	return (1);
+)
 }
