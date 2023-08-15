@@ -8,5 +8,13 @@
  */
 int _abs(int)
 {
-	printf("%d",abs(int));
+	if (n >= 0)
+	{
+		return (n);
+	}
+	else
+	{
+		return (-n);
+	}
+
 }
