@@ -6,3 +6,8 @@ int main(void)
 
 	return (0);
 }
+
+int _putchar()
+{
+	printf("_putchar");
+}
