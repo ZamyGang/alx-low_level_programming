@@ -16,8 +16,8 @@ int print_sign(int n)
 	}
 	else if(n < -1)
 	{
-		_putchar('-');
-		_putchar('1');
+		
+		_putchar(34 + '1');
 		return (-1);
 	}
 	else
