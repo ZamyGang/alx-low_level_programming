@@ -9,10 +9,10 @@ int print_last_digit(int)
 {
 	if (n % 10 > 0)
 	{
-		printf("%d",n);
+		return (n);
 	}
 	else 
 	{
-		return (0);
+		return (-n);
 	}
 }
