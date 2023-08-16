@@ -7,8 +7,10 @@
  */
 int print_last_digit(int n)
 {
-	if (n % 10 < 0)
+	int n = n % 10;
+	if (n <= 0)
 	{
+		printf("%d",n);
 		return (n);
 	}
 	else
