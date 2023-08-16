@@ -10,11 +10,12 @@ int _abs(int)
 {
 	if (int >= 0)
 	{
-		return (int);
+		_abs a;
+		return (a);
 	}
 	else
 	{
-		return (-int);
+		return (-a);
 	}
 
 }
