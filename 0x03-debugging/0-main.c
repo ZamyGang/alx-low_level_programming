@@ -1,6 +1,6 @@
 int main(void)
 {
-	int i = 98;
+	int i = 0;
 
 	negative_or_positive(i);
 
