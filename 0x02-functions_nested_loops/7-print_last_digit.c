@@ -4,9 +4,10 @@
 
 int print_last_digit(int n)
 {
-	if (n % 10 < 0)
+	int n = n % 10;
+
+	if (n < 0)
 	
-		n = -1;
-		_putchar(n + '0');
-		return (n);
+		n *= -1;
+		printf("%d",n );
 }
