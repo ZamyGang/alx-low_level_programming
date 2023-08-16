@@ -6,16 +6,15 @@
  *
  *
  */
-int _abs(int)
+int _abs(int n)
 {
-	if (int >= 0)
+	if (n >= 0)
 	{
-		_abs a;
-		return (a);
+		return (n);
 	}
 	else
 	{
-		return (-a);
+		return (-n);
 	}
 
 }
