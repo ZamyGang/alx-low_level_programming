@@ -1,12 +1,9 @@
 #include "main.h"
 #include <stdio.h>
-/*
- * main - entry point
+/**
+ * main - Prints "_putchar" followed by a new line.
  *
- * A function that prints _putchar using the _puthchar function.
- *
- * Return: (0) Success
- *
+ * Return: Always 0.
  */
 int main(void)
 {
