@@ -4,7 +4,7 @@
  * mul - multiplies to integers.
  * @a: digit input
  * @b: digit input
- * return: (0) success
+ * return: @a * @b success
  */
 int mul(int a, int b)
 {
