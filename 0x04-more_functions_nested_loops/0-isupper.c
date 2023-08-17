@@ -10,7 +10,7 @@ int main(void)
 {
 	int c;
 
-	if (c <= 'A' && c >= 'z')
+	if (c >= 'a' && c <= 'z')
 	{
 		return (1);
 	}
