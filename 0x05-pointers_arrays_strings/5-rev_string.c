@@ -1,9 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 /**
+ * rev_string - write a function that reverses a string.
  *
+ * @s: input
  *
- *
+ * Return: 0 (success)
  *
  */
 void rev_string(char *s)
@@ -21,7 +23,7 @@ void rev_string(char *s)
 
 	c = b - 1;
 
-	for (a = 0; a < b / 2; a++ )
+	for (a = 0; a < b / 2; a++)
 	{
 		temp = s[a];
 		s[a] = s[c];
