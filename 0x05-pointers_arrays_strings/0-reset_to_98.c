@@ -3,7 +3,7 @@
 /**
  * reset_to_98 - a function that takes a point to an int as parameter and
  * updates the value it points to 98.
- *
+ * @n : *n
  * return: 0 (success)
  */
 
