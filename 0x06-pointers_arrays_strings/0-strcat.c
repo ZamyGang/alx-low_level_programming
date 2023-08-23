@@ -3,9 +3,9 @@
 /**
  * *_strcat - A function that concatenates two strings.
  *
- * @dest : input
+ * @dest : inpiut
  * @src : input
- * return: 0 (success)
+ * return: (_strcat)
  *
  */
 char *_strcat(char *dest, char *src)
@@ -24,6 +24,6 @@ char *_strcat(char *dest, char *src)
 		src++;
 	}
 	*dest_ptr = '\0';
-	
-	return dest;
+
+	return (dest);
 }
