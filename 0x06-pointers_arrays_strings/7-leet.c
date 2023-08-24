@@ -14,7 +14,7 @@ char *leet(char *str)
 	int i = 0;
 	int j;
 
-	while (*(str + i) != '\0'')
+	while (*(str + i) != '\0')
 	{
 		for (j = 0; j <= 9; j++)
 		{
@@ -25,4 +25,5 @@ char *leet(char *str)
 		}
 		i++;
 	}
+	return (str);
 }
