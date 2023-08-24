@@ -22,7 +22,7 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		*dest_ptr = *src;
 		dest_ptr++;
-		*src;
+		src++;
 		n--;
 	}
 	*dest_ptr = '\0';
