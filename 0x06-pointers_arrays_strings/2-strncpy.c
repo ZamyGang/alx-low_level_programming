@@ -1,9 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *
- *
- *
+ * _strncpy - A function that copies a string.
+ * @dest: input
+ * @src: input
+ * @n: input
+ * return: 0 (success).
  *
  */
 char *_strncpy(char *dest, char *src, int n)
@@ -25,5 +27,5 @@ char *_strncpy(char *dest, char *src, int n)
 		dest_ptr++;
 		n--;
 	}
-	return dest;
+	return (dest);
 }
