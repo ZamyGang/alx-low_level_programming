@@ -4,7 +4,7 @@
 /**
  * _sqrt_recursion - A function the returns the natural square
  * root of a number.
- * findSqrt - A function that returns a square root of number.
+ * findSqrt - Finds the natural square root of an inputted number.
  * @n: input
  * @guess : input
  * Return: 0 (success)
@@ -16,7 +16,7 @@ int findSqrt(int n, int guess)
 	{
 		return (guess);
 	}
-	if (guess * guess > 0)
+	if (guess ==  n / 2)
 	{
 		return (-1);
 	}
