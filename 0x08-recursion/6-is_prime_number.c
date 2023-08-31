@@ -7,18 +7,24 @@
  * Return: 0 (success)
  *
  */
+
+int isdivisible(int n, int division)
+{
+	if (division == 1)
+	{
+		return (0);
+	}
+	if (n % division == 0)
+	{
+		return (1);
+	}
+	return isdivisible(n, division - 1);
+}
 int is_prime_number(int n)
 {
 	if (n <= 1)
 	{
 		return (0);
 	}
-	for (int i = 2; i * i <= n; i++)
-	{
-		if (n% i == 0)
-		{
-			return (0);
-		}
-	}
-	return (1);
+	return !isdivisible(n, n - 1);
 }
