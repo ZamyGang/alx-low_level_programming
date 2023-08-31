@@ -9,13 +9,13 @@
  */
 int is_prime_number(int n)
 {
-	if (num <= 1)
+	if (n <= 1)
 	{
 		return (0);
 	}
-	for (int i = 2; i * i <= num; i++)
+	for (int i = 2; i * i <= n; i++)
 	{
-		if (num % i == 0)
+		if (n% i == 0)
 		{
 			return (0);
 		}
