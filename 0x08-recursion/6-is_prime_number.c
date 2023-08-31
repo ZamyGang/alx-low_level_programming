@@ -3,7 +3,10 @@
 /**
  * is_prime_number - A function that returns 1 if the integer is a
  * prime number, otherwise return 0.
+ * isdivisible - A function that checks if a number is divisible by a
+ * given divisor
  * @n: input
+ * @division: input
  * Return: 0 (success)
  *
  */
@@ -18,7 +21,7 @@ int isdivisible(int n, int division)
 	{
 		return (1);
 	}
-	return isdivisible(n, division - 1);
+	return (isdivisible(n, division - 1));
 }
 int is_prime_number(int n)
 {
@@ -26,5 +29,5 @@ int is_prime_number(int n)
 	{
 		return (0);
 	}
-	return !isdivisible(n, n - 1);
+	return (!isdivisible(n, n - 1));
 }
