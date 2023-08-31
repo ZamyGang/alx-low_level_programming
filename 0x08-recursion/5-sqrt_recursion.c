@@ -8,15 +8,34 @@
  * Return: 0 (success)
  *
  */
-int _sqrt_recursion(int n)
+
+int findSqrt(int n, int start, int end)
 {
-	if (n == '\0')
+	if (start > end)
 	{
 		return (-1);
 	}
-	if (n == 0)
+	int mid = start + (end - start) / 2;
+	int square = mid * mid;
+
+	if (square == n)
 	{
-		return (1);
+		return (mid);
 	}
-	return *_sqrt_recursion(sqrt(n) - 1);
+	else if (square < n)
+	{
+		return findSqurt(n, mid + 1, end);
+	}
+	else
+	{
+		return findSqrt(n, start, mid - 1);
+	}
+}
+int _sqrt_recursion(int n)
+{
+	if (n < 0)
+	{
+		return (-1);
+	}
+	return findSqrt(n, 0, n);
 }
