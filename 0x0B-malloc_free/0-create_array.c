@@ -27,7 +27,7 @@ char *create_array(unsigned int size, char c)
 	while (i < size)
 	{
 		s[i] = c;
-		i++
+		i++;
 	}
 	s[i] = '\0';
 	return (s);
