@@ -11,7 +11,7 @@ int _strlen(char *s)
 {
 	int a;
 
-	for (a = 0; s[a] != '\0'; a++)
+	for (a = 0; s[a] != '\0'; a++);
 	return (a);
 }
 char *_strncat(char *dest, char *src, int n)
