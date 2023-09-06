@@ -4,8 +4,20 @@
  *
  *
  */
+char *_strncat(char *dest, char *src, int n)
+{
+	int dest_len, a;
+
+	dest_len = _strlen(dest);
+	for (a = 0; a < n && src[a] != '\0'; a++)
+		dest[dest_len + a] = src[a];
+	return (dest);
+}
 char *str_concat(char *s1, char *s2)
 {
+	char *ptr;
+	int size1, size2;
+
 	if (s1 == NULL)
 	{
 		s1 = "";
@@ -15,19 +27,18 @@ char *str_concat(char *s1, char *s2)
 		s2 = "";
 	}
 
-	size_t len1 = strlen(s1);
-	size_t len2 = strlen(s2);
-	size_t total_len = len1 + len2 + 1;
+	size1 = _strlen(s1);
+	size2 = _strlen(s2);
+	
+	ptr = malloc(((size1 + size2) + 1) * sizeof(char));
 
-	char *concatenated = (char *)malloc(total_len);
-
-	if (concatenate == NULL)
+	if (ptr == NULL)
 	{
 		return (NULL);
 	}
-
-	strcpy(concatenated, s1);
-	strcpy(concatenated, s2);
-
-	return (concatenated);
+	_strncat(ptr, s1, size1);
+	_strncat(ptr, s2, size2);
+	ptr += '\0';
+	
+	return (ptr);
 }

@@ -5,21 +5,37 @@
  *
  *
  */
+int _strlen (char *s)
+{
+	int a;
+	for (a = 0; s[a] != '\0'; a++)
+	{
+		
+	}
+	return (a);
+}
+
 char *_strdup(char *str)
 {
+	char *ptr;
+	int size;
+	int x;
 	if (str == NULL)
 	{
 		return (NULL);
 	}
+	size = _strlen(str) + 1;
+	ptr = malloc(size * sizeof(char));
 
-	char *duplicate = (char *)malloc(strlen(str) + 1);
-
-	if (duplicate == NULL)
+	x = 0;
+	while (x < size)
 	{
-		return (NULL);
+		if (ptr == NULL)
+		{
+			return (NULL);	
 	}
-
-	strcpy(duplicate, str);
-
-	return duplicate;
+		ptr[x] = str[x];
+		x++;
+	}
+	return (ptr);
 }
