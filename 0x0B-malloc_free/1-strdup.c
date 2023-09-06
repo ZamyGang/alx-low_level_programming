@@ -2,9 +2,12 @@
 #include <stdlib.h>
 #include <stdio.h>
 /***
- *
- *
- *
+ * _strlen - return the lengh of a string.
+ * _strdup - function to return pointer to string
+ * @s: char type
+ * @str: input
+ * Return: lenght of string
+ * Return: 0 (success)
  *
  */
 int _strlen(char *s)
@@ -13,7 +16,7 @@ int _strlen(char *s)
 
 	for (a = 0; s[a] != '\0'; a++)
 	{
-		
+
 	}
 	return (a);
 }
@@ -36,7 +39,7 @@ char *_strdup(char *str)
 	{
 		if (ptr == NULL)
 		{
-			return (NULL);	
+			return (NULL);
 	}
 		ptr[x] = str[x];
 		x++;
