@@ -1,6 +1,11 @@
 #include "dog.h"
 #include <stdio.h>
 #include <stdlib.h>
+/**
+ * print_dog - a function that prints a struct dog.
+ * @d: input
+ * Return: 0 (success).
+ */
 void print_dog(struct dog *d)
 {
 	if (d == NULL)
@@ -20,5 +25,4 @@ void print_dog(struct dog *d)
 		printf("Owner: (nil)\n");
 	else
 		printf("Owner: %s\n", d->owner);
-	
 }
