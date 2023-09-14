@@ -9,18 +9,18 @@
  * Return: 0 (success).
  */
 int sum_them_all(const unsigned int n, ...)
-{	
-	va_list numbers; 
+{
+	va_list numbers;
 	unsigned int a, sum;
-	
-	va_start(numbers , n);
+
+	va_start(numbers, n);
 
 	sum = 0;
 
 	for (a = 0; a < n; a++)
 		sum += va_arg(numbers, int);
 
-	va_end (numbers);
+	va_end(numbers);
 
 	return (sum);
 }
