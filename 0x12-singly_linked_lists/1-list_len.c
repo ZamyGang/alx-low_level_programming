@@ -7,8 +7,6 @@ size_t list_len(const list_t *h)
 
 	while (h)
 	{
-		printf("-> %d %s", h->len, h->str);
-
 		node++;
 		h = h->next;
 	}
