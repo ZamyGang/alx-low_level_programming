@@ -10,7 +10,7 @@ list_t *add_node(list_t **head, const char *str)
 	if (new == NULL)
 		return (NULL);
 
-	duplicate = strdup(str);
+	dup = strdup(str);
 	if (dup == NULL)
 	{
 		free(new);
