@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "lists.h"
 
-sizet print_listint(const listint_t *h)
+size_t print_listint(const listint_t *h)
 {
 	size_t node = 0;
 
