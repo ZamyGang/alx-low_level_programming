@@ -1,9 +1,5 @@
 #include "main.h"
 #include <stdlib.h>
-/**
- *
- *
- */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	ssize_t o, r, w;
@@ -11,7 +7,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	if (filename == NULL)
 		return (0);
-	
+
 	buffer = malloc(sizeof(char) * letters);
 
 	if (buffer == NULL)
